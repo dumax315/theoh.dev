@@ -191,7 +191,7 @@ const BodyContent = (props) => {
             alt="picture of buildonary.live"
           />
           <div className="mt-4 gap-x-2">
-            <div className="float-right flex gap-4">
+            <div className="float-right flex px-1 gap-4">
               <a href="https://buildonary.live" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
                 <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
               </a>
@@ -216,7 +216,7 @@ const BodyContent = (props) => {
             alt="picture of Tiktok auto embed"
           />
           <div className="mt-4  gap-x-2">
-            <div className="float-right flex gap-4">
+            <div className="float-right flex px-1 gap-4">
               <a href="https://top.gg/bot/845019408928735252" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
                 <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
               </a>
@@ -240,7 +240,7 @@ const BodyContent = (props) => {
             alt="picture of this website"
           />
           <div className="mt-4 gap-x-2">
-            <div className="float-right flex gap-4">
+            <div className="float-right flex px-1 gap-4">
             
               <a href="./" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
                 <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
@@ -265,7 +265,7 @@ const BodyContent = (props) => {
             alt="picture of this website"
           />
           <div className="mt-4 gap-x-2">
-            <div className="float-right flex gap-4">
+            <div className="float-right flex px-1 gap-4">
             
               <a href="https://solar-taxicab.theohal.repl.co/" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
                 <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
