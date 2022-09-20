@@ -7,6 +7,7 @@ import Image from 'next/image'
 const BodyContent = (props) => {
   
   return (
+    
     <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2 relative px-8 sm:px-8 lg:px-20">
       <div className="">
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
@@ -183,7 +184,7 @@ const BodyContent = (props) => {
 
       </div>
       <div className="space-y-10 lg:pl-16 xl:pl-24">
-        <h1>projects:</h1>
+        
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
           <img
             src="/buildonaryBackground.jpg"
