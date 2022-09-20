@@ -257,6 +257,31 @@ const BodyContent = (props) => {
         </div>
         
       </div>
+      <div className="">
+        
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+          <img
+            src="/solarTaxicab.webp"
+            alt="picture of this website"
+          />
+          <div className="mt-4 gap-x-2">
+            <div className="float-right flex gap-4">
+            
+              <a href="https://solar-taxicab.theohal.repl.co/" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
+              </a>
+              <a href="https://replit.com/@TheoHal/Solar-Taxicab?v=1" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
+              </a>
+            </div>
+            <div >{/* description*/}
+              Solar Taxicab, the game where you fairy passengers from planet to planet, avoid and shoot aliens, and try and make a huge amount of money. This game won $1000 in replits game jam.
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
       
     </div>
   )
