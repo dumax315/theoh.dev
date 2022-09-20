@@ -8,7 +8,7 @@ const BodyContent = (props) => {
   
   return (
     
-    <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2 relative px-8 sm:px-8 lg:px-20">
+    <div className="mt-4 mx-auto grid max-w-xl grid-cols-1 gap-16 lg:max-w-none lg:grid-cols-2 relative px-8 sm:px-8 lg:px-20">
       <div className="">
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
           <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
@@ -183,23 +183,76 @@ const BodyContent = (props) => {
         </div>
 
       </div>
-      <div className="space-y-10 lg:pl-16 xl:pl-24">
+      <div className="">
         
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
           <img
             src="/buildonaryBackground.jpg"
             alt="picture of buildonary.live"
           />
-          <div className="mt-4 flex gap-x-2">
-            <div >{/* description*/}
-              Buildonary.live is voxel-based pictionary game on the web. The game plays like Skribbl.io but with a 3D twist.
+          <div className="mt-4 gap-x-2">
+            <div className="float-right flex gap-4">
+              <a href="https://buildonary.live" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
+              </a>
+              <a href="https://github.com/dumax315/Buildonary.live" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
+              </a>
             </div>
-            <a href="https://buildonary.live" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
-              <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
-            </a>
-            <a href="https://github.com/dumax315/Buildonary.live" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
-              <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
-            </a>
+            <div >{/* description*/}
+              Buildonary.live is voxel-based pictionary game on the web. The game plays like Skribbl.io but with a 3D twist. It is built with HTML/Css/JS, node.js, and socket.io.
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+
+      <div className="">
+        
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+          <img
+            src="/ttembed.webp"
+            alt="picture of Tiktok auto embed"
+          />
+          <div className="mt-4  gap-x-2">
+            <div className="float-right flex gap-4">
+              <a href="https://top.gg/bot/845019408928735252" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
+              </a>
+              <a href="https://github.com/dumax315/Tiktok-Auto-Embed" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
+              </a>
+            </div>
+            <div >{/* description*/}
+              The TikTok Auto Embed bot will automatically embed the tiktoks links you send. It is built with python and discord.py.
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+      <div className="">
+        
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+          <img
+            src="/next.webp"
+            alt="picture of this website"
+          />
+          <div className="mt-4 gap-x-2">
+            <div className="float-right flex gap-4">
+            
+              <a href="./" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
+              </a>
+              <a href="https://github.com/dumax315/theoh.dev" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
+              </a>
+            </div>
+            <div >{/* description*/}
+              this website was made with next.js, react, and tailwind
+            </div>
+
           </div>
         </div>
         

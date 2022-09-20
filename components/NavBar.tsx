@@ -19,10 +19,22 @@ const NavBar = (props) => {
   
   return (
     <header className="h-40 flex items-center justify-evenly max-w-3xl mx-auto">
-      <div id="profilePhoto" >
-        <img
-          sizes="4rem" src="pfp.jpg" decoding="async" data-nimg="future" className="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-24 w-24"/>
-      </div>
+      <a href="https://theoh.dev">
+        <div id="profilePhoto" className="reletive" >
+          <div className="rounded-full bg-zinc-100 dark:bg-zinc-800 h-24 w-24">
+            <img
+            sizes="4rem" src="pfp.jpg" decoding="async" data-nimg="future" className="absolute  rounded-full bg-zinc-100  dark:bg-zinc-800 h-24 w-24"/>
+          <div className="reletive inset-0 rounded-full bg-zinc-100  dark:bg-zinc-800 h-24 w-24 opacity-0 hover:opacity-70 flex justify-center items-center">
+            <p className=" align-middle text-center items-center ">
+              home
+            </p>
+          </div>
+          
+          </div>
+          
+        </div>
+        
+      </a>
 
       <div id="navigation">
         <nav className="pointer-events-auto hidden md:block">
