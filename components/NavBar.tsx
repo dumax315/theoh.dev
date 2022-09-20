@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import Link from 'next/link'
 
 const NavBar = (props) => {
   // let headerInnerPos = 5;
@@ -19,7 +19,7 @@ const NavBar = (props) => {
   
   return (
     <header className="h-40 flex items-center justify-evenly max-w-3xl mx-auto">
-      <a href="https://theoh.dev">
+      <Link  href="../">
         <div id="profilePhoto" className="reletive" >
           <div className="rounded-full bg-zinc-100 dark:bg-zinc-800 h-24 w-24">
             <img
@@ -34,7 +34,7 @@ const NavBar = (props) => {
           
         </div>
         
-      </a>
+      </Link>
 
       <div id="navigation">
         <nav className="pointer-events-auto hidden md:block">
@@ -42,14 +42,18 @@ const NavBar = (props) => {
 
 
             <li>
-              <a className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/computer-club" >
-                computer club
-              </a>
+              <span className="p-4 relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" >
+                <Link href="/computer-club" >
+                  computer club
+                </Link>
+              </span>
             </li>
             <li>
-              <a className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/contact" >
-                contact
-              </a>
+              <span className="p-4 relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400">
+                <Link  href="/contact" >
+                  contact
+                </Link>
+              </span>
             </li>
 
           </ul>
@@ -97,14 +101,18 @@ const NavBar = (props) => {
             <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
 
               <li>
-                <a className="block py-2" data-headlessui-state="open" href="/computer-club">
-                  computer club
-                </a>
+                <span className="p-4 block py-2">
+                  <Link  data-headlessui-state="open" href="/computer-club">
+                    computer club
+                  </Link>
+                </span>
               </li>
               <li>
-                <a className="block py-2" data-headlessui-state="open" href="/contact">
+                <span className="p-4 block py-2">
+                <Link  data-headlessui-state="open" href="/contact">
                   contact
-                </a>
+                </Link>
+                  </span>
               </li>
               
             </ul>
