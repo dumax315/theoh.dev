@@ -25,6 +25,8 @@ const HomePage: NextPage = () => {
       <NavBar darkModeState={setIsDarkMode} isDark={isDarkMode}/>
       <NameSocials />
       <BodyContent />
+      <div className="p-2">
+      </div>
     </div>
     </div>
   );

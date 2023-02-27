@@ -34,7 +34,7 @@ const BodyContent = (props) => {
               <dl className="flex flex-auto flex-wrap gap-x-2">
                 <dt className="sr-only">School</dt>
                 <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                  south seattle college
+                  South Seattle College
                 </dd>
                 <dt className="sr-only">Role</dt>
                 <dd className="text-xs text-zinc-500 dark:text-zinc-400">student</dd>
@@ -96,7 +96,7 @@ const BodyContent = (props) => {
               <dl className="flex flex-auto flex-wrap gap-x-2">
                 <dt className="sr-only">Company</dt>
                 <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                  strome jewish community center
+                  Strome Jewish Community Center
                 </dd>
                 <dt className="sr-only">Role</dt>
                 <dd className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -129,7 +129,7 @@ const BodyContent = (props) => {
               <dl className="flex flex-auto flex-wrap gap-x-2">
                 <dt className="sr-only">Company</dt>
                 <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                  west seattle high school
+                  West Seattle High School
                 </dd>
                 <dt className="sr-only">Role</dt>
                 <dd className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -162,7 +162,7 @@ const BodyContent = (props) => {
               <dl className="flex flex-auto flex-wrap gap-x-2">
                 <dt className="sr-only">school</dt>
                 <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                  seattle country day school
+                  Seattle Country Day School
                 </dd>
                 <dt className="sr-only">Role</dt>
                 <dd className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -225,13 +225,63 @@ const BodyContent = (props) => {
               </a>
             </div>
             <div >{/* description*/}
-              The TikTok Auto Embed bot will automatically embed the tiktoks links you send. It is built with python and discord.py.
+              The TikTok Auto Embed bot will automatically embed the tiktoks links you send. It is in 3500 servers and has helped users over 300k times. It is built with python and discord.py.
             </div>
 
           </div>
         </div>
         
       </div>
+            <div className="">
+        
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+          <img
+            src="/solarTaxicab.webp"
+            alt="picture of this website"
+          />
+          <div className="mt-4 gap-x-2">
+            <div className="float-right flex px-1 gap-4">
+            
+              <a href="https://solar-taxicab.theohal.repl.co/" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
+              </a>
+              <a href="https://replit.com/@TheoHal/Solar-Taxicab?v=1" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
+              </a>
+            </div>
+            <div >
+              Solar Taxicab, the game where you fairy passengers from planet to planet, avoid and shoot aliens, and try and make a huge amount of money. This game won $1000 in replit&apos;s game jam.
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+      <div className="">
+        
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+          <img
+            src="/nftbanner.png"
+            alt="picture of the nft grafatti wall banner"
+          />
+          <div className="mt-4 gap-x-2">
+            <div className="float-right flex px-1 gap-4">
+            
+              <a href="https://new-minter-tutorial.theohal.repl.co/" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
+              </a>
+              <a href="https://dorahacks.io/buidl/2633" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
+              </a>
+            </div>
+            <div >{/* description*/}
+              My Graffiti Walls are non-static NFTs that can be graffitied (a limited number of times). This project won $1667 and was runner up for most creative in Hello NFT World: OpenSea x Replit Hackathon.
+            </div>
+
+          </div>
+        </div>
+        
+      </div>      
       <div className="">
         
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
@@ -257,31 +307,7 @@ const BodyContent = (props) => {
         </div>
         
       </div>
-      <div className="">
-        
-        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
-          <img
-            src="/solarTaxicab.webp"
-            alt="picture of this website"
-          />
-          <div className="mt-4 gap-x-2">
-            <div className="float-right flex px-1 gap-4">
-            
-              <a href="https://solar-taxicab.theohal.repl.co/" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
-                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
-              </a>
-              <a href="https://replit.com/@TheoHal/Solar-Taxicab?v=1" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
-                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
-              </a>
-            </div>
-            <div >{/* description*/}
-              Solar Taxicab, the game where you fairy passengers from planet to planet, avoid and shoot aliens, and try and make a huge amount of money. This game won $1000 in replits game jam.
-            </div>
 
-          </div>
-        </div>
-        
-      </div>
       
     </div>
   )
