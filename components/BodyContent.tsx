@@ -216,10 +216,10 @@ const BodyContent = (props) => {
       </div>
       <div className="">
         
-        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 flex-col flex h-full">
           <iframe
-            className="w-full"
-            width="560" height="315" src="https://www.youtube.com/embed/yvn188DbWao?si=zjRpAKtABLA7os3P" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            className="w-full grow"
+            width="560"  src="https://www.youtube.com/embed/yvn188DbWao?si=zjRpAKtABLA7os3P" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
           <div className="mt-4 gap-x-2">
             <div className="float-right flex px-1 gap-4">

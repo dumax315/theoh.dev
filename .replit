@@ -1,4 +1,4 @@
 compile = 'npm run build'
-run = 'npm run start'
-#run = 'npm run dev'
+#run = 'npm run start'
+run = 'npm run dev'
 entrypoint = 'pages/index.jsx'
