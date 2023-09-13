@@ -9,17 +9,17 @@ const NavBar = (props) => {
     <div className="max-w-3xl mx-auto px-6 mt-8">
       <div className="w-3/4">
         <h1 className="dark:text-neutral-300 text-neutral-800 text-7xl font-mono">
-          theoh
+          Theo H
         </h1>
         <div className="flex">
           <p className="mt-4">
-            theo halpern
+            Theo Halpern
           </p>
           <p className="inline-block h-full mt-4 mr-2 align-middle">
             :
           </p>
           <p className="mt-4">
-            seattle based full stack developer and tech educator
+            DC and Seattle based CS and Pholophy Major and tech educator
           </p>
         </div>
       </div>

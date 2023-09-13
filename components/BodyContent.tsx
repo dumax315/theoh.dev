@@ -17,6 +17,37 @@ const BodyContent = (props) => {
             <span className="ml-3">work & school</span>
           </h2>
           <ol className="mt-6 space-y-4">
+                        <li className="flex gap-4">
+              <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                <img
+                  alt=""
+                  src="./gwuLogo.webp"
+                  decoding="async"
+                  data-nimg="future"
+                  className="h-6 w-7"
+                  loading="lazy"
+                  style={{ color: "transparent" }}
+                  width={35}
+                  height={28}
+                />
+              </div>
+              <dl className="flex flex-auto flex-wrap gap-x-2">
+                <dt className="sr-only">School</dt>
+                <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+                  George Washington University
+                </dd>
+                <dt className="sr-only">Role</dt>
+                <dd className="text-xs text-zinc-500 dark:text-zinc-400">student</dd>
+                <dt className="sr-only">Date</dt>
+                <dd
+                  className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
+                  aria-label="2023 until the Present"
+                >
+                  <time dateTime={"2023"}>2023</time> <span aria-hidden="true">—</span>{" "}
+                  <time dateTime={"2027"}>present</time>
+                </dd>
+              </dl>
+            </li>
             <li className="flex gap-4">
               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <img
@@ -41,10 +72,10 @@ const BodyContent = (props) => {
                 <dt className="sr-only">Date</dt>
                 <dd
                   className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-                  aria-label="2022 until the Present"
+                  aria-label="2022 until the 2023"
                 >
-                  <time dateTime={"2019"}>2022</time> <span aria-hidden="true">—</span>{" "}
-                  <time dateTime={"2022"}>present</time>
+                  <time dateTime={"2022"}>2022</time> <span aria-hidden="true">—</span>{" "}
+                  <time dateTime={"2023"}>2023</time>
                 </dd>
               </dl>
             </li>
@@ -72,10 +103,10 @@ const BodyContent = (props) => {
                 <dt className="sr-only">Date</dt>
                 <dd
                   className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-                  aria-label="Summer 2022"
+                  aria-label="Summer 2022 and 2023"
                 >
-                  <time dateTime={"2019"}>2022</time> <span aria-hidden="true">—</span>{" "}
-                  <time dateTime={"2022"}>summer</time>
+                  <time dateTime={"2022"}>2022</time> <span aria-hidden="true">—</span>{" "}
+                  <time dateTime={"2023"}>present</time>
                 </dd>
               </dl>
             </li>
@@ -186,6 +217,33 @@ const BodyContent = (props) => {
       <div className="">
         
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+          <iframe
+            className="w-full"
+            width="560" height="315" src="https://www.youtube.com/embed/yvn188DbWao?si=zjRpAKtABLA7os3P" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+
+          <div className="mt-4 gap-x-2">
+            <div className="float-right flex px-1 gap-4">
+              <a href="https://devpost.com/software/wildtrek-arv5wc" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
+              </a>
+              <a href="https://github.com/dumax315/WildTrek" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
+              </a>
+            </div>
+            <div >{/* description*/}
+              WildTrek is a pwa that motivates you to get outside, explore the wilderness, and learn more about nature. It allows users to upload pictures and if you are 13+, you can share them with people around you.
+
+
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+
+      <div className="">
+        
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
           <img
             src="/buildonaryBackground.jpg"
             alt="picture of buildonary.live"
@@ -232,6 +290,7 @@ const BodyContent = (props) => {
         </div>
         
       </div>
+
             <div className="">
         
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
