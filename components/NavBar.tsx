@@ -55,6 +55,13 @@ const NavBar = (props) => {
                 </Link>
               </span>
             </li>
+            <li>
+              <span className="p-4 relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400">
+                <Link  href="/resume" >
+                  resume
+                </Link>
+              </span>
+            </li>
 
           </ul>
         </nav>
@@ -102,11 +109,12 @@ const NavBar = (props) => {
 
               <li>
                 <span className="p-4 block py-2">
-                  <Link  data-headlessui-state="open" href="/computer-club">
-                    computer club
+                  <Link  data-headlessui-state="open" href="/resume">
+                    resume
                   </Link>
                 </span>
               </li>
+              
               <li>
                 <span className="p-4 block py-2">
                 <Link  data-headlessui-state="open" href="/contact">
