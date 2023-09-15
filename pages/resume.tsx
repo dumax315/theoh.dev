@@ -20,7 +20,7 @@ const HomePage: NextPage = () => {
       <NavBar darkModeState={setIsDarkMode} isDark={isDarkMode}/>
       
       <NameSocials />
-      <iframe className="w-11/12 h-[1200px] m-auto" src="https://docs.google.com/document/d/1MdcENNFUMb9Dg7PQwk6dZ8nGrtn1F7uhAUSdXFfZ3xw/view?embedded=true" frameBorder={0} marginHeight={0} marginWidth={0}>Loading…</iframe>
+      <iframe className="w-11/12 h-[1200px] m-auto" src="https://docs.google.com/document/d/1WlE7o0wuzHzzmGNcsHIvz3wxBd2tAUcr/view?embedded=true" frameBorder={0} marginHeight={0} marginWidth={0}>Loading…</iframe>
     </div>
     </div>
   );
