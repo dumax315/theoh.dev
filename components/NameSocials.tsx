@@ -19,7 +19,7 @@ const NavBar = (props) => {
             :
           </p>
           <p className="mt-4">
-            DC and Seattle based CS and Pholophy Major and tech educator
+            DC and Seattle based CS Major and tech educator
           </p>
         </div>
       </div>
