@@ -301,7 +301,7 @@ const BodyContent = (props) => {
           <div className="mt-4 gap-x-2">
             <div className="float-right flex px-1 gap-4">
             
-              <a href="https://solar-taxicab.theohal.repl.co/" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+              <a href="https://solar-taxicab-theohal.replit.app/" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
                 <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
               </a>
               <a href="https://replit.com/@TheoHal/Solar-Taxicab?v=1" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
