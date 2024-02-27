@@ -214,6 +214,7 @@ const BodyContent = (props) => {
         </div>
 
       </div>
+      
       <div className="">
         
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 flex-col flex h-full">
@@ -250,7 +251,7 @@ const BodyContent = (props) => {
           />
           <div className="mt-4 gap-x-2">
             <div className="float-right flex px-1 gap-4">
-              <a href="https://buildonary.live" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+              <a href="https://buildonarylive-theohal.replit.app/" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
                 <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
               </a>
               <a href="https://github.com/dumax315/Buildonary.live" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
