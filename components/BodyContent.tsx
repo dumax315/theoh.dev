@@ -214,6 +214,35 @@ const BodyContent = (props) => {
         </div>
 
       </div>
+
+
+      <div className="">
+
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 flex-col flex h-full">
+          <img
+            src="https://detectorinjector.study/logoAnimationForever.gif"
+            alt="the animated Detector Injector logo"
+            className="bg-stone-100"
+          />
+          
+
+          <div className="mt-4 gap-x-2">
+            <div className="float-right flex px-1 gap-4">
+              <a href="https://devpost.com/software/detectorinjector" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
+              </a>
+              <a href="https://github.com/akhilvanka/detectorInjector" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
+              </a>
+            </div>
+            <div >{/* description*/}
+              Gone are the days of faulty AI detection software, with DetectorInjector teachers gain the tool to combat rising AI usage. This tool embeds hidden prompt injections in assignemts so when students copy into LLMs the result will be poisoned. Won 3rd place at Georgetown HoyaHacks 2024.
+            </div>
+
+          </div>
+        </div>
+
+      </div>
       
       <div className="">
         
