@@ -215,6 +215,35 @@ const BodyContent = (props) => {
 
       </div>
 
+      <div className="">
+
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 flex-col flex h-full">
+          <img
+            src="/gts.png"
+            alt="a photo of a group tab saver new tab"
+            className="bg-stone-100"
+          />
+
+
+          <div className="mt-4 gap-x-2">
+            <div className="float-right flex px-1 gap-4">
+              <a href="https://chromewebstore.google.com/detail/aoficjpojclhhkpfgmeeenmknpnbagak?hl=en&authuser=0" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faUpRightFromSquare} /> 
+              </a>
+              <a href="https://github.com/i-r-o-n/GroupTabSaver" className="rounded-lg border border-zinc-100 p-2 items-center flex dark:border-zinc-700/40">
+                <FontAwesomeIcon className="fa-xl" icon={faGithub} /> 
+              </a>
+            </div>
+            <div >{/* description*/}
+              <div className="text-lg	font-bold">Group Tab Saver</div>
+              An extermely handy chrome new tab that allows users to save entire tab groups that update live with use. The days of keeping all of your tabs open all the time is over.
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
 
       <div className="">
 
@@ -236,6 +265,7 @@ const BodyContent = (props) => {
               </a>
             </div>
             <div >{/* description*/}
+              <div className="text-lg	font-bold">Detector Injector</div>
               Gone are the days of faulty AI detection software, with DetectorInjector teachers gain the tool to combat rising AI usage. This tool embeds hidden prompt injections in assignemts so when students copy into LLMs the result will be poisoned. Won 3rd place at Georgetown HoyaHacks 2024.
             </div>
 
