@@ -1,12 +1,7 @@
-// import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBriefcase,
-  faUpRightFromSquare,
-} from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import WorkOrSchoolItem from "./elements/workOrSchoolItem";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import ProjectItem from "./elements/ProjectItem";
+import WorkOrSchoolItem from "./elements/WorkOrSchoolItem";
 
 const BodyContent = (props) => {
   return (
@@ -21,8 +16,8 @@ const BodyContent = (props) => {
             <WorkOrSchoolItem
               imageSrc="https://signsalad.com/wp-content/uploads/2021/11/Screenshot-2021-11-03-at-12.14.11.png"
               type={"Work"}
-              name={"Meta University Engineering Interns"}
-              role={"Intern"}
+              name={"Meta"}
+              role={"Meta University Engineering Intern"}
               startDate={"2024"}
               endDate={"2024"}
             />
@@ -87,7 +82,16 @@ const BodyContent = (props) => {
       </div>
 
       <ProjectItem
-        imageSrc={"/gts.png"}
+        imageSrc={"./indoorMaps.webp"}
+        imageAlt={"a photo of the interacted building map from indoor maps"}
+        viewLiveHref={"https://indoormaps.onrender.com/"}
+        viewSourceHref={"https://github.com/Theo-s-Meta-Capstone/IndoorMaps"}
+        title={"Indoor Maps"}
+        description={`My Capstone project at my Meta U internship. Design shareble and searchable maps of any building. Worked solo for 5 weeks to build a webapp that uses
+          Postgres + Prisma + TypeGraphQL + Apollo Server + Express + JWT cookies + ts-Relay + Leaflet + Geoman + Vite React + Jest / 100% TS and ES6.`}
+      />
+      <ProjectItem
+        imageSrc={"./gts.png"}
         imageAlt={"a photo of a group tab saver new tab"}
         viewLiveHref={
           "https://chromewebstore.google.com/detail/aoficjpojclhhkpfgmeeenmknpnbagak?hl=en&authuser=0"
