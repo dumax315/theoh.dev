@@ -1,12 +1,13 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { useState } from "react"
+import { useContext, useState } from "react"
 import NavBar from "../components/NavBar"
 import NameSocials from "../components/NameSocials"
+import { DarkModeContext } from './_app'
 
 
 const HomePage: NextPage = () => {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const {isDarkMode, setIsDarkMode} = useContext(DarkModeContext);
 
   return (
   <div className={`bg-gradient-to-r from-black via-neutral-400 to-black ${isDarkMode ? "dark" : ""}`} >

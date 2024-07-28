@@ -2,13 +2,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase, faUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
-import Image from 'next/image'
 
 const BodyContent = (props) => {
   
   return (
     
-    <div className="mt-4 mx-auto grid max-w-xl grid-cols-1 gap-16 lg:max-w-none lg:grid-cols-2 relative px-8 sm:px-8 lg:px-20">
+    <div className="mt-4 mx-auto grid max-w-xl grid-cols-1 gap-16 lg:max-w-none lg:grid-cosls-2 relative px-8 sm:px-8 lg:px-20">
       <div className="">
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
           <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
