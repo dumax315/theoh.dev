@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faYoutube, faDiscord,faGithub,faDev, faSpotify} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faYoutube, faDiscord,faGithub,faDev, faSpotify, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 
 const NavBar = (props) => {
@@ -19,7 +19,7 @@ const NavBar = (props) => {
             :
           </p>
           <p className="mt-4">
-            DC and Seattle based CS Major and tech educator
+            Georgia Tech CS Major from Seattle. Interested in building software of any kind!
           </p>
         </div>
       </div>
@@ -58,6 +58,12 @@ const NavBar = (props) => {
           <a href="https://open.spotify.com/user/cd90euuh48ettmhg5eaaqud74?si=ea08ac30b9a4402d" className=" whitespace-nowrap transition-all duration-700 border-black dark:border-white border-2 p-2 rounded-md max-w-[43px] hover:max-w-[300px] overflow-hidden w-auto inline-block text-center">
             <FontAwesomeIcon className="fa-xl" icon={faSpotify} /> 
             <span className="ml-2">Spotify</span>
+          </a>
+        </span>
+        <span className="w-[160px] inline-block mb-4">
+          <a href="https://www.linkedin.com/in/theo-halpern/" className=" whitespace-nowrap transition-all duration-700 border-black dark:border-white border-2 p-2 rounded-md max-w-[43px] hover:max-w-[300px] overflow-hidden w-auto inline-block text-center">
+            <FontAwesomeIcon className="fa-xl" icon={faLinkedin} /> 
+            <span className="ml-2">LinkedIn</span>
           </a>
         </span>
       </div>
