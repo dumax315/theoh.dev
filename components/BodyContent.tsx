@@ -130,7 +130,7 @@ const BodyContent = (props) => {
       <ProjectItem
         imageSrc={"/buildonaryBackground.jpg"}
         imageAlt={"picture of buildonary.live"}
-        viewLiveHref={"https://buildonarylive-theohal.replit.app/"}
+        viewLiveHref={"https://buildonary.theoh.dev/"}
         viewSourceHref={"https://github.com/dumax315/Buildonary.live"}
         title={"Detector Injector"}
         description={`Buildonary.live is voxel-based pictionary game on the web. The
@@ -149,7 +149,7 @@ const BodyContent = (props) => {
       <ProjectItem
         imageSrc={"/solarTaxicab.webp"}
         imageAlt={"picture of Solar Taxicab"}
-        viewLiveHref={"https://solar-taxicab-theohal.replit.app/"}
+        viewLiveHref={"https://solartaxicab.theoh.dev/"}
         viewSourceHref={"https://replit.com/@TheoHal/Solar-Taxicab?v=1"}
         description={`Solar Taxicab, the game where you fairy passengers from planet to
               planet, avoid and shoot aliens, and try and make a huge amount of
