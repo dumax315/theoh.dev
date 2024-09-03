@@ -84,7 +84,7 @@ const BodyContent = (props) => {
       <ProjectItem
         imageSrc={"./indoorMaps.webp"}
         imageAlt={"a photo of the interacted building map from indoor maps"}
-        viewLiveHref={"https://indoormaps.onrender.com/"}
+        viewLiveHref={"https://indoormaps.theoh.dev/"}
         viewSourceHref={"https://github.com/Theo-s-Meta-Capstone/IndoorMaps"}
         title={"Indoor Maps"}
         description={`My Capstone project at my Meta U internship. Design shareble and searchable maps of any building. Worked solo for 5 weeks to build a webapp that uses
