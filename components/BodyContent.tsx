@@ -10,7 +10,7 @@ const BodyContent = (props) => {
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
           <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
             <FontAwesomeIcon className="fa-xl" icon={faBriefcase} />
-            <span className="ml-3">work & school</span>
+            <span className="ml-3">Work & School</span>
           </h2>
           <ol className="mt-6 space-y-4">
             <WorkOrSchoolItem
@@ -35,7 +35,7 @@ const BodyContent = (props) => {
               imageSrc="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
               type={"School"}
               name={"Georgia Institute of Technology"}
-              role={"student"}
+              role={"Student"}
               startDate={"2024"}
               endDate={"Present"}
             />
@@ -43,7 +43,7 @@ const BodyContent = (props) => {
               imageSrc="./gwuLogo.webp"
               type={"School"}
               name={"George Washington University"}
-              role={"student"}
+              role={"Student"}
               startDate={"2023"}
               endDate={"2024"}
             />
@@ -51,7 +51,7 @@ const BodyContent = (props) => {
               imageSrc="./southseattle.png"
               type={"School"}
               name={"South Seattle College"}
-              role={"student"}
+              role={"Student"}
               startDate={"2022"}
               endDate={"2023"}
             />

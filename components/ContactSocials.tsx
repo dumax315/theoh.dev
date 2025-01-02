@@ -9,7 +9,7 @@ const NavBar = (props) => {
     <div className="max-w-3xl mx-auto px-6 mt-8">
       <div className="w-3/4">
         <h1 className="dark:text-neutral-300 text-neutral-800 text-7xl font-mono">
-          theoh
+          Contact Theo Halpern
         </h1>
         <p className="mt-4">
           <a href="mailto:theomhalpern@gmail.com" className="underline">theomhalpern@gmail.com</a>  
