@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase, faSchool } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faLaptopCode, faSchool } from "@fortawesome/free-solid-svg-icons";
 import ProjectItem from "./elements/ProjectItem";
 import WorkOrSchoolItem from "./elements/WorkOrSchoolItem";
 
 const BodyContent = (props) => {
   return (
-    <div className="mt-4 mx-auto grid max-w-xl grid-cols-1 lg:grid-cols-2 gap-16 lg:max-w-none relative px-8 sm:px-8 lg:px-20">
+    <div className="mt-4 mx-auto grid max-w-xl grid-cols-1 lg:grid-cols-2 gap-8 lg:max-w-none relative px-8 sm:px-8 lg:px-20">
       <div className="">
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
           <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
@@ -109,7 +109,10 @@ const BodyContent = (props) => {
           </ol>
         </div>
       </div>
-
+      <h2 id="projects" className="flex lg:col-span-2 text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+        <FontAwesomeIcon className="fa-xl" icon={faLaptopCode} />
+        <span className="ml-3">Projects</span>
+      </h2>
       <ProjectItem
         imageSrc={"./indoorMaps.webp"}
         imageAlt={"a photo of the interacted building map from indoor maps"}
