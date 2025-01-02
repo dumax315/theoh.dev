@@ -17,7 +17,17 @@ const BodyContent = (props) => {
               imageSrc="https://signsalad.com/wp-content/uploads/2021/11/Screenshot-2021-11-03-at-12.14.11.png"
               type={"Work"}
               name={"Meta"}
+              role={"Meta SWE Intern"}
+              dateOverride={"Summer 2025"}
+              startDate={"2025"}
+              endDate={"2025"}
+            />
+            <WorkOrSchoolItem
+              imageSrc="https://signsalad.com/wp-content/uploads/2021/11/Screenshot-2021-11-03-at-12.14.11.png"
+              type={"Work"}
+              name={"Meta"}
               role={"Meta University Engineering Intern"}
+              dateOverride={"Summer 2024"}
               startDate={"2024"}
               endDate={"2024"}
             />
