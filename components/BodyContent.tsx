@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase, faSchool } from "@fortawesome/free-solid-svg-icons";
 import ProjectItem from "./elements/ProjectItem";
 import WorkOrSchoolItem from "./elements/WorkOrSchoolItem";
 
@@ -10,7 +10,7 @@ const BodyContent = (props) => {
         <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
           <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
             <FontAwesomeIcon className="fa-xl" icon={faBriefcase} />
-            <span className="ml-3">Work & School</span>
+            <span className="ml-3">Work</span>
           </h2>
           <ol className="mt-6 space-y-4">
             <WorkOrSchoolItem
@@ -23,6 +23,14 @@ const BodyContent = (props) => {
               endDate={"2025"}
             />
             <WorkOrSchoolItem
+              imageSrc="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
+              type={"Word"}
+              name={"Georgia Tech College Of Computing"}
+              role={"Teaching Assitant"}
+              startDate={"2025"}
+              endDate={"Present"}
+            />
+            <WorkOrSchoolItem
               imageSrc="https://signsalad.com/wp-content/uploads/2021/11/Screenshot-2021-11-03-at-12.14.11.png"
               type={"Work"}
               name={"Meta"}
@@ -31,6 +39,33 @@ const BodyContent = (props) => {
               startDate={"2024"}
               endDate={"2024"}
             />
+            <WorkOrSchoolItem
+              imageSrc="./idtechlogo.png"
+              type={"Work"}
+              name={"iD Tech Camps"}
+              role={"Counselor"}
+              startDate={"2022"}
+              endDate={"2023"}
+            />
+            <WorkOrSchoolItem
+              imageSrc="./theJ.png"
+              type={"Work"}
+              name={"Strome Jewish Community Center"}
+              role={"Counselor"}
+              startDate={"2019"}
+              endDate={"2021"}
+            />
+          </ol>
+        </div>
+      </div>
+      
+      <div className="">
+        <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+          <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+            <FontAwesomeIcon className="fa-xl" icon={faSchool} />
+            <span className="ml-3">School</span>
+          </h2>
+          <ol className="mt-6 space-y-4">
             <WorkOrSchoolItem
               imageSrc="https://brand.gatech.edu/sites/default/files/inline-images/GTVertical_RGB.png"
               type={"School"}
@@ -54,22 +89,6 @@ const BodyContent = (props) => {
               role={"Student"}
               startDate={"2022"}
               endDate={"2023"}
-            />
-            <WorkOrSchoolItem
-              imageSrc="./idtechlogo.png"
-              type={"Work"}
-              name={"iD Tech Camps"}
-              role={"Counselor"}
-              startDate={"2022"}
-              endDate={"2023"}
-            />
-            <WorkOrSchoolItem
-              imageSrc="./theJ.png"
-              type={"Work"}
-              name={"Strome Jewish Community Center"}
-              role={"Counselor"}
-              startDate={"2019"}
-              endDate={"2021"}
             />
             <WorkOrSchoolItem
               imageSrc="./wshs.png"
