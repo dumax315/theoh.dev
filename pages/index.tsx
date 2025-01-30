@@ -21,7 +21,6 @@ const HomePage: NextPage = () => {
         <meta name="description" content="Theo Halpern's personal website" />
 
         <link rel="icon" href="/favicon.ico" />
-        <script defer data-domain="theoh.dev" src="https://analytics.theoh.dev/js/script.js"></script>
       </Head>
       <div className="min-h-screen lg:border-l-8 lg:border-r-8 dark:border-black border-white lg:max-w-5xl dark:bg-neutral-900 bg-stone-300 m-auto text-zinc-800 dark:text-zinc-300">
         {/*nesting compenent test*/}
