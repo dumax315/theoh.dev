@@ -135,7 +135,7 @@ const BodyContent = (props) => {
               your tabs open all the time is over.`}
       />
       <ProjectItem
-        imageSrc={"https://detectorinjector.study/logoAnimationForever.gif"}
+        imageSrc={"https://detectorinjector.theoh.dev/logoAnimationForever.gif"}
         imageAlt={"the animated Detector Injector logo"}
         viewLiveHref={"https://devpost.com/software/detectorinjector"}
         viewSourceHref={"https://github.com/akhilvanka/detectorInjector"}
