@@ -164,7 +164,7 @@ const BodyContent = (props) => {
         imageAlt={"picture of buildonary.live"}
         viewLiveHref={"https://buildonary.theoh.dev/"}
         viewSourceHref={"https://github.com/dumax315/Buildonary.live"}
-        title={"Detector Injector"}
+        title={"Buildonary.live"}
         description={`Buildonary.live is voxel-based pictionary game on the web. The
               game plays like Skribbl.io but with a 3D twist. It is built with
               HTML/Css/JS, node.js, and socket.io.`}
