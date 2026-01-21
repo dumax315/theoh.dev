@@ -14,6 +14,15 @@ const BodyContent = (props) => {
           </h2>
           <ol className="mt-6 space-y-4">
             <WorkOrSchoolItem
+              imageSrc="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAY1BMVEUAAAD///8tLS3v7++hoaFVVVXa2tqQkJDr6+v09PT5+flMTEzl5eUdHR1HR0fJycl4eHiGhobS0tKWlpZpaWkyMjJhYWEWFhYRERGoqKg7Ozu+vr4JCQkjIyNCQkJycnKysrLQqAWTAAABHklEQVRIie2S6XKEIBCEaV1BWRXve82+/1NmQHQTo+b4lyq6ymLamW8cBMacnJyc/qYuSWw06Whz36qHtFEA1Ay4/xC8wX+B3v8Ch0BJ+Gq2L1UEfxwoyuLRU2F2Do4AJD1iyS6G6gWiCMjPQUom070wxTnQP9is9AaEbtZ4F2BtnELEyJXGFOAabC73WFpLdZmGtWagE6s5A9e/yiH0DlelAvEnsNwaVQuYbmB5g+RW8bAH37bS5wKKbdQq+zjdHqQCbtYaCyg7Y+lUXj8nbQ7AkshganNYEFHFmDeaI6PcszVTZV9B3dtILSAt0ifb2/GhTXHwRWrIKcWrRxh6LAzriqws7Jk1BV0cru9LHqo9SEoubHtQ7+Tk5PRrvQOIVgtk0tbYkwAAAABJRU5ErkJggg=="
+              type={"Work"}
+              name={"Uber"}
+              role={"Software Engineer Intern"}
+              dateOverride={"Winter 2026"}
+              startDate={"2026"}
+              endDate={"2026"}
+            />
+            <WorkOrSchoolItem
               imageSrc="https://signsalad.com/wp-content/uploads/2021/11/Screenshot-2021-11-03-at-12.14.11.png"
               type={"Work"}
               name={"Meta"}
