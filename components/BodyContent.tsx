@@ -14,6 +14,15 @@ const BodyContent = (props) => {
           </h2>
           <ol className="mt-6 space-y-4">
             <WorkOrSchoolItem
+              imageSrc="https://signsalad.com/wp-content/uploads/2021/11/Screenshot-2021-11-03-at-12.14.11.png"
+              type={"Work"}
+              name={"Meta"}
+              role={"Meta SWE Intern"}
+              dateOverride={"Summer 2026"}
+              startDate={"2026"}
+              endDate={"2026"}
+            />
+            <WorkOrSchoolItem
               imageSrc="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAY1BMVEUAAAD///8tLS3v7++hoaFVVVXa2tqQkJDr6+v09PT5+flMTEzl5eUdHR1HR0fJycl4eHiGhobS0tKWlpZpaWkyMjJhYWEWFhYRERGoqKg7Ozu+vr4JCQkjIyNCQkJycnKysrLQqAWTAAABHklEQVRIie2S6XKEIBCEaV1BWRXve82+/1NmQHQTo+b4lyq6ymLamW8cBMacnJyc/qYuSWw06Whz36qHtFEA1Ay4/xC8wX+B3v8Ch0BJ+Gq2L1UEfxwoyuLRU2F2Do4AJD1iyS6G6gWiCMjPQUom070wxTnQP9is9AaEbtZ4F2BtnELEyJXGFOAabC73WFpLdZmGtWagE6s5A9e/yiH0DlelAvEnsNwaVQuYbmB5g+RW8bAH37bS5wKKbdQq+zjdHqQCbtYaCyg7Y+lUXj8nbQ7AkshganNYEFHFmDeaI6PcszVTZV9B3dtILSAt0ifb2/GhTXHwRWrIKcWrRxh6LAzriqws7Jk1BV0cru9LHqo9SEoubHtQ7+Tk5PRrvQOIVgtk0tbYkwAAAABJRU5ErkJggg=="
               type={"Work"}
               name={"Uber"}
@@ -45,6 +54,15 @@ const BodyContent = (props) => {
               name={"Meta"}
               role={"Meta University Engineering Intern"}
               dateOverride={"Summer 2024"}
+              startDate={"2024"}
+              endDate={"2024"}
+            />
+            <WorkOrSchoolItem
+              imageSrc="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%2318181b'/%3E%3Ctext x='20' y='25' text-anchor='middle' font-size='13' fill='white' font-family='sans-serif'%3ECA%3C/text%3E%3C/svg%3E"
+              type={"Work"}
+              name={"CodeAdvantage"}
+              role={"After School Coding Instructor"}
+              dateOverride={"Jan 2024 — May 2024"}
               startDate={"2024"}
               endDate={"2024"}
             />
@@ -122,6 +140,22 @@ const BodyContent = (props) => {
         <FontAwesomeIcon className="fa-xl" icon={faLaptopCode} />
         <span className="ml-3">Projects</span>
       </h2>
+      <ProjectItem
+        ytIframeSrc={"https://www.youtube.com/embed/5J4gsYUTWbA"}
+        imageAlt={"BikeBuddy demonstration video"}
+        viewLiveHref={"https://devpost.com/software/bikebuddy"}
+        viewSourceHref={"https://github.com/tsar-boomba/BikeBuddy"}
+        title={"BikeBuddy"}
+        description={`A modular bike safety system with turn, hazard, and brake lights, rear-view video, speed tracking, and navigation. I integrated the ESP32 camera and TFT display, designed the mounts, and eliminated brownouts through careful wiring and soldering. Winner of the HackGT 12 Hardware Track.`}
+      />
+      <ProjectItem
+        imageSrc={"https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/045/067/datas/original.png"}
+        imageAlt={"Calm Connect clinic dashboard"}
+        viewLiveHref={"https://devpost.com/software/calm-connect"}
+        viewSourceHref={"https://github.com/jaiden-lee/calm-connect"}
+        title={"Calm Connect"}
+        description={`An AI receptionist for therapists that manages SMS patient intake and scheduling. I built Next.js server components for calendar availability and clinic and therapist management, configured Twilio phone numbers, and contributed to prompt engineering.`}
+      />
       <ProjectItem
         imageSrc={"./indoorMaps.webp"}
         imageAlt={"a photo of the interacted building map from indoor maps"}
