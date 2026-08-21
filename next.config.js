@@ -1,12 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
-
-module.exports = 
-  {
-    nextConfig,  
-    async redirects() {
+  async redirects() {
     return [
       {
         source: '/GroupNewTab',
@@ -15,4 +10,6 @@ module.exports =
       },
     ]
   },
-  }
+}
+
+module.exports = nextConfig
