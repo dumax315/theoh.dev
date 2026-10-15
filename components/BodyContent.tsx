@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase, faLaptopCode, faSchool } from "@fortawesome/free-solid-svg-icons";
 import ProjectItem from "./elements/ProjectItem";
 import WorkOrSchoolItem from "./elements/WorkOrSchoolItem";
+import CTFChallenges from "./CTFChallenges";
 
 const BodyContent = (props) => {
   return (
@@ -136,6 +137,7 @@ const BodyContent = (props) => {
           </ol>
         </div>
       </div>
+      <CTFChallenges />
       <h2 id="projects" className="flex lg:col-span-2 text-lg font-semibold text-zinc-900 dark:text-zinc-100">
         <FontAwesomeIcon className="fa-xl" icon={faLaptopCode} />
         <span className="ml-3">Projects</span>
